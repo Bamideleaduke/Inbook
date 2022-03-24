@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 2px solid blue;
+  height: 150vh;
+  width: 50%;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.small-div {
+  border: 2px solid blue;
+  height: 100px;
+  border-radius: 1px 1px 1px 1px;
+  background-color: blue;
+}
+
+.image {
+  border: 1px solid grey;
+  margin-top: 10px;
+  width: 20%;
+  height: 20vh;
+  margin: 50px;
+  border-radius: 90%;
+}
+
+.profile {
+  margin-bottom: 3.5rem;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  position: relative;
+  bottom: 120px;
+  left: 200px;
+}
+
+.form {
+  /* margin-bottom: 50.3rem;
+    padding: 50px;
+    padding-right: 50px; */
+  /* float: inline-start; */
+  /* position: relative; */
+  /* margin: 20px; */
+  padding-top: 50px;
+  position: relative;
+  top: -200px;
+  margin: 50px;
+  align-items: center;
+}
+input {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  padding-right: 10px;
+  display: block;
+}
+
+label {
+  margin-left: 5px;
+  padding: 6px;
+}
+
+button {
+  margin: 20px;
+  padding: 8px;
+  float: inline-end;
+  border-radius: 2px;
+  background-color: blue;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.bt {
+  float: right;
+}
+/* @media only screen and (max-width: 800px) {
+        .container {
+            width: 500px;
+         
+        }
+        input{
+            width: 50px;
+        }
+        .image{
+            width: 150px;
+        }
+        .profile{
+            width: 5px;
+            margin: 50px;
+        }
+      } */

@@ -1,0 +1,23 @@
+.dash-item {
+  background-color: #034077;
+}
+.profile {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+ul {
+  margin-top: 2rem;
+}
+li {
+  list-style: none;
+  margin-left: 2rem;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 0.2rem;
+}
+table {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  
+}

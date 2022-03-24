@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Poppins:wght@200;400;500;700&display=swap");
+/* Header start */
+/* header {
+  position: sticky;
+  height: 100px;
+} */
+* {
+  font-family: "Lato", sans-serif;
+}
+nav {
+  padding: 4rem 3rem;
+}
+a {
+  cursor: pointer;
+}
+nav ul {
+  margin-left: 15rem;
+}
+li {
+  margin-left: 2rem;
+}
+nav li a {
+  color: #1a2b5a;
+  font-size: 20px;
+}
+nav button {
+  margin-left: 1rem;
+}
+/* Header stop */
+main {
+  width: 90%;
+  margin: 1% auto;
+}
+.section-title h4 {
+  margin: 5rem 0rem;
+  text-align: center;
+  color: #1a2b5a;
+  font-weight: 400;
+  font-size: 2rem;
+}
+/* Section six start */
+.section-6 .card {
+  background-color: #1a2b5a;
+  color: white;
+  padding: 4rem 0rem;
+}
+.section-6 button {
+  margin-top: 1rem;
+}
+/* Section six end */
+/* Section two start */
+/* Section two start */
+/* Section two start */
+/* Section two */
+/* Section two start */
+footer {
+  color: #1a2b5a;
+  padding: 3rem 0rem;
+}

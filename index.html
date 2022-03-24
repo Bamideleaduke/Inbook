@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Hackathon</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" 
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="feature.html" active
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#pricing" active
+                  >Pricing</a
+                >
+              </li>
+              <!-- <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" active
+                  >Reasources</a
+                >
+              </li> -->
+              <li class="nav-item ">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" active
+                  >About Us</a
+                >
+              </li>
+            
+              
+            </ul>
+            <div class="d-flex ms-auto">
+              <button class="btn btn-outline-primary" type="submit">
+                Sign Up
+              </button>
+              <button class="btn btn-primary" type="submit">
+                <a
+                  href="signin.html"
+                  style="color: white; text-decoration: none"
+                  >Login</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+        <div class="container-fluid">
+        
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#payment-plan">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown link
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    </header>
+    <section class="hero" style="height: 100vh">
+      <div
+        class="card mb-3"
+        style="
+          border: none;
+          background-color: rgba(59, 155, 244, 0.13);
+          padding: 0rem 4rem 5rem 4rem;
+        "
+      >
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="card-body hero-text">
+              <h2 class="card-title">Keep records with ease</h2>
+              <p class="card-text">
+                The all-in-one tool that helps you run your small business.
+                Track inventory, send invoices, manage expenses, improve cash
+                flow and much more.
+              </p>
+
+              <button  type="submit"  class="btn btn-outline-primary">
+
+               <a href="signin.html" style="text-decoration:none;">Get Started</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 hero-img">
+            <img
+              src="./images/hero-image.png"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="section-2">
+        <div class="section-title">
+          <h4>How is Inbook governed?</h4>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <div class="sec-2-img">
+              <img
+                src="./images/image1.png"
+                class="card-img-top sec-2-img"
+                alt="..."
+              />
+            </div>
+            <div class="card- sec-2-text">
+              <h5 class="card-title">Easy Invoicing</h5>
+              <p class="card-text">
+                Impress your clients with professional looking invoices that
+                take only seconds to create. You will have various templates to
+                choose from or customize.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="sec-2-img">
+              <img
+                src="./images/image2.png"
+                class="card-img-top sec-2-img"
+                alt="..."
+              />
+            </div>
+            <div class="card- sec-2-text">
+              <h5 class="card-title">Organised Record</h5>
+              <p class="card-text">
+                Take control of your business expenses the easy way — all in one
+                Say goodbye to manually entering sales record. Upload a picture
+                of a receipt and our platform will automatically extract
+                imortantant information from the receipt such as totals, and
+                taxes for you.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="sec-2-img">
+              <img
+                src="./images/image3.png"
+                class="card-img-top sec-2-img"
+                alt="..."
+              />
+            </div>
+            <div class="card- sec-2-text">
+              <h5 class="card-title">Expenses</h5>
+              <p class="card-text">
+                Take control of your business expenses the easy way — all in one
+                place, from any device. Import expenses and income Effortless
+                organization Make every deduction count
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-3" id="payment-plan">
+        <div class="section-title">
+          <h4>Payment Plan</h4>
+        </div>
+        <div class="sec-3-flex" style="display: flex">
+          <h3 class="card-title" style="margin: 0rem 20.5rem 0rem 8.5rem">
+            Invoice
+          </h3>
+          <h3 class="card-title" style="margin: 0rem 20.5rem 0rem 0rem">
+            Record
+          </h3>
+          <h3 class="card-title">Expenses</h3>
+        </div>
+
+        <div class="card-group payment-sec">
+          <div class="card payment-plan">
+            <div class="card-body">
+              <h5 class="card-title">Simple Start</h5>
+              <hr
+                style="border: 2px solid grey; width: 150px; margin-left: 5rem"
+              />
+              <p class="card-text">Start your business</p>
+              <h5 class="card-title">
+                <span><i class="fa-solid fa-naira-sign"></i></span> 12,000/month
+              </h5>
+              <button class="btn btn-primary">Buy More</button>
+            </div>
+          </div>
+
+          <div class="card payment-plan" style="margin: 0rem 5rem">
+            <div class="card-body">
+              <h5 class="card-title">Simple Start</h5>
+              <hr
+                style="border: 2px solid grey; width: 150px; margin-left: 5rem"
+              />
+              <p class="card-text">Run your business</p>
+              <h5 class="card-title">
+                <span><i class="fa-solid fa-naira-sign"></i></span> 12,000/month
+              </h5>
+              <button class="btn btn-primary">Buy More</button>
+            </div>
+          </div>
+
+          <div class="card payment-plan">
+            <div class="card-body">
+              <h5 class="card-title">Simple Start</h5>
+              <hr
+                style="border: 2px solid grey; width: 150px; margin-left: 5rem"
+              />
+              <p class="card-text">Start your business</p>
+              <h5 class="card-title">
+                <span><i class="fa-solid fa-naira-sign"></i></span> 12,000/month
+              </h5>
+              <button class="btn btn-primary">Buy More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item item-slide active">
+              <h5>Testimonial</h5>
+              <div class="carousel-caption slide-text">
+                <img src="./images/Ellipse 78.png" class="..." alt="..." />
+
+                <p>
+                  inbook is an amazing finance website application, i get
+                  fascinated by the easy and fast way it helped me keep proper
+                  records of my expenses and genation of e-invoice. I’m glad to
+                  be making use of this application.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item-slide">
+              <h5>Testimonial</h5>
+              <div
+                class="carousel-caption slide-text"
+                style="background-color: pink"
+              >
+                <img src="./images/Ellipse 78.png" class="..." alt="..." />
+
+                <p>
+                  inbook is an amazing finance website application, i get
+                  fascinated by the easy and fast way it helped me keep proper
+                  records of my expenses and genation of e-invoice. I’m glad to
+                  be making use of this application.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item item-slide">
+              <h5>Testimonial</h5>
+              <div
+                class="carousel-caption slide-text"
+                style="background-color: rgb(241, 114, 241)"
+              >
+                <img src="./images/Ellipse 78.png" class="..." alt="..." />
+
+                <p>
+                  inbook is an amazing finance website application, i get
+                  fascinated by the easy and fast way it helped me keep proper
+                  records of my expenses and genation of e-invoice. I’m glad to
+                  be making use of this application.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="section-5">
+        <div class="section-title">
+          <h4>How is Inbook governed?</h4>
+        </div>
+        <div class="card-group">
+          <div class="card sec-5-img">
+            <figure>
+              <img
+                src="./images/exp-image1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <figcaption>Expenses</figcaption>
+            </figure>
+            <div class="card-body">
+              <p class="card-text">
+                How to track business expenses effortlessly
+              </p>
+            </div>
+          </div>
+          <div class="card sec-5-img">
+            <img src="./images/exp-image2.png" class="card-img-top" alt="..." />
+            <figcaption>Sales</figcaption>
+            <div class="card-body">
+              <p class="card-text">
+                How to track business expenses effortlessly
+              </p>
+            </div>
+          </div>
+          <div class="card sec-5-img">
+            <img src="./images/exp-image3.png" class="card-img-top" alt="..." />
+            <figcaption>Record Keeping</figcaption>
+            <div class="card-body">
+              <p class="card-text">
+                How to track business expenses effortlessly
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="section-6">
+        <div class="card mb-3" style="border: none">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <div class="card-body">
+                <h2 class="card-title" style="width: 200px; padding-left: 3rem">
+                  Get your finances right with inbook
+                </h2>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <form class="col align-items-center">
+                <div class="col" style="width: 500px">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="specificSizeInputName"
+                    placeholder="email Address"
+                  />
+                </div>
+
+                <div class="col">
+                  <button type="submit" class="btn btn-primary">
+                    Contact Us
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="row row-cols-4 row-cols-lg-5">
+          <div class="col">
+            <img src="./images/logo.png" style="height: 30px" alt="" />
+          </div>
+          <div class="col">Company</div>
+          <div class="col">Features</div>
+          <div class="col">Helpful Links</div>
+          <div class="col">Policies</div>
+          <!--  -->
+          <div class="col"></div>
+          <div class="col">Company</div>
+          <div class="col">Features</div>
+          <div class="col">Helpful Links</div>
+          <div class="col">Policies</div>
+
+          <!--  -->
+          <div class="col">Inbook</div>
+          <div class="col">Company</div>
+          <div class="col"></div>
+          <div class="col">Helpful Links</div>
+          <div class="col">Policies</div>
+
+          <!--  -->
+          <div class="col"></div>
+          <div class="col">Company</div>
+          <div class="col">Features</div>
+          <div class="col">Helpful Links</div>
+          <div class="col">Policies</div>
+          <div class="col"></div>
+          <!--  -->
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col">Features</div>
+          <div class="col"></div>
+          <div class="col"></div>
+
+          <!-- /* Blog */ /* Login */ /* Helpful links */ /* Invoice template */ /*
+          Resources Library */ -->
+        </div>
+      </div>
+    </footer>
+    <!-- 
+        Image slides section
+        
+        <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div> -->
+
+    <!--
+    File upload setion
+    
+    <div>
+    <p>
+        <input
+          type="file"
+          accept="image/*"
+          name="image"
+          id="file"
+          onchange="loadFile(event)"
+          style="display: none"
+        />
+      </p>
+      <p><label for="file" style="cursor: pointer">Upload Image</label></p>
+      <p><img id="output" width="200" /></p>
+</div> -->
+    <!-- Bootstrap Js link -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

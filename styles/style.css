@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Poppins:wght@200;400;500;700&display=swap");
+/* Header start */
+/* header {
+  position: sticky;
+  height: 100px;
+} */
+* {
+  font-family: "Lato", sans-serif;
+}
+nav {
+  padding: 4rem 3rem;
+}
+a {
+  cursor: pointer;
+}
+nav ul {
+  margin-left: 15rem;
+}
+li {
+  margin-left: 2rem;
+}
+nav li a {
+  color: #1a2b5a;
+  font-size: 20px;
+}
+nav button {
+  margin-left: 1rem;
+}
+/* Header stop */
+main {
+  width: 90%;
+  margin: 1% auto;
+}
+.card {
+  border: none;
+}
+.section-title h4 {
+  margin: 5rem 0rem;
+  text-align: center;
+  color: #1a2b5a;
+  font-weight: 400;
+  font-size: 2rem;
+}
+/* Hero section start */
+
+.hero-img img {
+  float: right;
+  padding-top: 5rem;
+}
+.hero-text {
+  text-align: left;
+  padding: 10rem 3rem 0rem 0rem;
+}
+.hero-text h2 {
+  color: #1a2b5a;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 0rem 4rem 0rem 0rem;
+}
+.hero-text p {
+  padding: 0rem 4rem 0rem 0rem;
+}
+
+.hero-text button {
+  padding: 0.5rem 2rem;
+  margin-top: 2rem;
+}
+/* Hero section end */
+/* Section two start */
+.sec-2-img {
+  width: 100%;
+  height: 200px;
+}
+.sec-2-img img {
+  width: 60%;
+  margin-left: 3rem;
+}
+.sec-2-text {
+  text-align: center;
+  width: 250px;
+  margin-left: 2rem;
+}
+.sec-2-text p {
+  color: #1a2b5a;
+}
+.sec-2-text h5 {
+  text-align: center;
+}
+
+/* Section two end */
+
+/* Section three start */
+.payment-sec {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.payment-plan {
+  max-width: 350px;
+  padding: 2rem 0rem 4rem 0rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  color: #1a2b5a;
+}
+.payment-plan:hover {
+  box-shadow: 0 3px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.payment-plan h5 {
+  font-size: 1.5rem;
+}
+.payment-plan button {
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+/* Section three end */
+/* Section four start */
+.slide {
+  width: 100%;
+  height: 500px;
+  border: 2px solid blue;
+}
+.item-slide {
+  height: 400px;
+}
+.item-slide h5 {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #1a2b5a;
+  font-weight: 700;
+}
+.slide-text {
+  background-color: blue;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  border-radius: 15px;
+}
+.slide-text p {
+  padding: 1rem 7.5rem;
+}
+.slide-text img {
+  width: 100px;
+}
+/* Section four end */
+/* Section five start */
+.sec-5-img img {
+  width: 80%;
+}
+.sec-5-img figure {
+  margin: auto;
+}
+/* Section five end */
+/* Section six start */
+.section-6 .card {
+  background-color: #1a2b5a;
+  color: white;
+  padding: 4rem 0rem;
+}
+.section-6 button {
+  margin-top: 1rem;
+}
+/* Section six end */
+/* Section two start */
+/* Section two start */
+/* Section two start */
+/* Section two */
+/* Section two start */
+footer {
+  color: #1a2b5a;
+  padding: 3rem 0rem;
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.card {
+  width: 70%;
+  margin: 3% auto;
+}
+
+.tick {
+  width: 160px;
+  background: #034077;
+  color: white;
+}
+
+.lead {
+  width: 135px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: start;
+  line-height: 2rem;
+}
+
+.head1 {
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+
+.head2 {
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-color: #707070;
+}
+
+.img-fluid {
+  width: 80px;
+  min-height: auto;
+  margin-top: 40px;
+  margin-left: 26px;
+  margin-bottom: 3px;
+}
+
+.bordered {
+  border-bottom: 1px solid;
+  border-color: #707070;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+  padding-bottom: 0.5rem;
+  border-color: #c4c4c4;
+}
+
+.bud {
+  border-bottom: 1px solid;
+}
+
+.bot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.bot h1 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.pad-me {
+  padding: 0 10px 0 10px;
+  background: #034077;
+}
+
+.stuff {
+  margin-top: 5rem;
+}
+
+.receipt {
+  width: 600px;
+  height: 350px;
+  margin-bottom: 5rem;
+}
+
+.receipt img {
+  width: 200px;
+  height: 200px;
+  align-content: center;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.receipt p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#output {
+  position: relative;
+  bottom: 23rem;
+  right: 8rem;
+}
