@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.card{
+    width: 70%;
+    margin: 3% auto;
+
+}
+
+.tick{
+    width: 160px;
+    background: #034077;
+    color: white;
+}
+
+.lead{
+    width: 135px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: start;
+    line-height: 2rem;
+}
+
+.head1{
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.head2{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-color: #707070;
+
+}
+
+.img-fluid{
+    width: 80px;
+    min-height: auto;
+    margin-top: 40px;
+    margin-left: 26px;
+    margin-bottom: 3px;
+   
+}
+
+.bordered{
+    border-bottom: 1px solid;
+    border-color: #707070;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding-bottom: 0.5rem;
+    border-color: #c4c4c4;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid;
+    border-color: #707070;
+    padding-bottom: 2rem;
+}
+
+.display button{
+    padding: 0 20px 0;
+    background: #034077;
+}
+
+.logus{
+    float: right;
+}
+
+.width{
+    width: 45rem;
+    height: 1100px;
+}
+
+#dont{
+    border: none;
+}
+
+.b-none button{
+    padding: 0 20px 0;
+    background: #034077;
+    margin-left: 7.8rem;
+    margin-top: 4rem;
+
+}
+
+#dash{
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.make{
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.include{
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+#list-up{
+    font-weight: 500;
+font-size: 12px;
+padding-left: 20px;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+}
+.rec-1{
+    width: 200px;
+    height: 200px;
+}
+.rec-2{
+    width: 200px;
+    height: 200px;
+}
+.rec-3{
+    width: 200px;
+    height: 200px;
+}
+
+.data-insight{
+    margin-top: 4rem;
+}
+
+.data-insight h2{
+    font-weight: 500;
+    font-size: 17px;
+}
+.data-insight p{
+    font-weight: 400;
+    font-size: 10px;
+}

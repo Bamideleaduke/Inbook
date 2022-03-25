@@ -41,6 +41,12 @@ main {
   font-weight: 400;
   font-size: 2rem;
 }
+@media screen and (max-width: 700px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* Hero section start */
 
 .hero-img img {
